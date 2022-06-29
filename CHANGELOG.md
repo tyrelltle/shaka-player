@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.3.8](https://github.com/tyrelltle/shaka-player/compare/v3.3.7...v3.3.8) (2022-06-29)
+
+
+### Bug Fixes
+
+* build ([1567119](https://github.com/tyrelltle/shaka-player/commit/1567119e9d5004d112bff352f657f2e99937b4dc))
+* build ([b1d1377](https://github.com/tyrelltle/shaka-player/commit/b1d1377b8da806f12d0ce6c515e9384fbd37204f))
+* build ([b1d1377](https://github.com/tyrelltle/shaka-player/commit/b1d1377b8da806f12d0ce6c515e9384fbd37204f))
+* script ([a0cf58c](https://github.com/tyrelltle/shaka-player/commit/a0cf58c7eec5fa5299f472a2e6436573c8071eb9))
+* script ([a0cf58c](https://github.com/tyrelltle/shaka-player/commit/a0cf58c7eec5fa5299f472a2e6436573c8071eb9))
+
 ## [3.3.7](https://github.com/shaka-project/shaka-player/compare/v3.3.6...v3.3.7) (2022-06-14)
 
 
