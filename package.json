@@ -86,7 +86,7 @@
   "main": "dist/shaka-player.compiled.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shaka-project/shaka-player.git"
+    "url": "https://github.com/tyrelltle/shaka-player.git"
   },
   "bugs": {
     "url": "https://github.com/shaka-project/shaka-player/issues"
