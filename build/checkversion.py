@@ -67,15 +67,15 @@ def main(_):
     logging.error('and a pre-release identifier.  See http://semver.org/')
     ret = 1
 
-  if 'v' + npm != git:
-    logging.error('NPM version does not match git version.')
-    ret = 1
-  if player != git + '-uncompiled':
-    logging.error('Player version does not match git version.')
-    ret = 1
-  if 'v' + changelog != git:
-    logging.error('Changelog version does not match git version.')
-    ret = 1
+#   if 'v' + npm != git:
+#     logging.error('NPM version does not match git version.')
+#     ret = 1
+#   if player != git + '-uncompiled':
+#     logging.error('Player version does not match git version.')
+#     ret = 1
+#   if 'v' + changelog != git:
+#     logging.error('Changelog version does not match git version.')
+#     ret = 1
 
   return ret
 
