@@ -5,7 +5,7 @@ on:
     branches:
       - main
       - v[0-9]*
-      - stream-shaka-player-3-3-4
+      - msstream-shaka-player-3-3-4
 jobs:
   release:
     runs-on: ubuntu-latest
