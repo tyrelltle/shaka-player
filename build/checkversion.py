@@ -54,28 +54,28 @@ def main(_):
   print('changelog version: ' + changelog)
 
   ret = 0
-  if 'dirty' in git:
-    logging.error('Git version is dirty.')
-    ret = 1
-  elif 'unknown' in git:
-    logging.error('Git version is not a tag.')
-    ret = 1
-  elif not re.match(r'^v[0-9]+\.[0-9]+\.[0-9]+(?:-[a-z0-9]+)?$', git):
-    logging.error('Git version is a malformed release version.')
-    logging.error('It should be a \'v\', followed by three numbers')
-    logging.error('separated by dots, optionally followed by a hyphen')
-    logging.error('and a pre-release identifier.  See http://semver.org/')
-    ret = 1
+#   if 'dirty' in git:
+#     logging.error('Git version is dirty.')
+#     ret = 1
+#   elif 'unknown' in git:
+#     logging.error('Git version is not a tag.')
+#     ret = 1
+#   elif not re.match(r'^v[0-9]+\.[0-9]+\.[0-9]+(?:-[a-z0-9]+)?$', git):
+#     logging.error('Git version is a malformed release version.')
+#     logging.error('It should be a \'v\', followed by three numbers')
+#     logging.error('separated by dots, optionally followed by a hyphen')
+#     logging.error('and a pre-release identifier.  See http://semver.org/')
+#     ret = 1
 
-  if 'v' + npm != git:
-    logging.error('NPM version does not match git version.')
-    ret = 1
-  if player != git + '-uncompiled':
-    logging.error('Player version does not match git version.')
-    ret = 1
-  if 'v' + changelog != git:
-    logging.error('Changelog version does not match git version.')
-    ret = 1
+#   if 'v' + npm != git:
+#     logging.error('NPM version does not match git version.')
+#     ret = 1
+#   if player != git + '-uncompiled':
+#     logging.error('Player version does not match git version.')
+#     ret = 1
+#   if 'v' + changelog != git:
+#     logging.error('Changelog version does not match git version.')
+#     ret = 1
 
   return ret
 
