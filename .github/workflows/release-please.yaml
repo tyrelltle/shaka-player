@@ -90,7 +90,7 @@ jobs:
       - uses: svenstaro/upload-release-action@483c1e56f95e88835747b1c7c60581215016cbf2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          tag: ${{ needs.release.outputs.tag_name }}
+          tag: 'testout'
           file: shaka-player-*.tgz
           file_glob: true
           overwrite: true
