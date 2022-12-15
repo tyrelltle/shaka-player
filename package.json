@@ -2,7 +2,7 @@
   "name": "stream-shaka-player",
   "description": "DASH/EME video player library",
   "version": "4.3.0",
-  "homepage": "https://github.com/shaka-project/shaka-player",
+  "homepage": "https://github.com/tyrelltle/shaka-player",
   "author": "Google",
   "maintainers": [
     {
@@ -87,7 +87,7 @@
   "main": "dist/shaka-player.compiled.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shaka-project/shaka-player.git"
+    "url": "https://github.com/tyrelltle/shaka-player.git"
   },
   "bugs": {
     "url": "https://github.com/shaka-project/shaka-player/issues"
